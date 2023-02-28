@@ -31,10 +31,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 - [x] SCSS
 - [x] Icon in folder
 - [x] Router Guard
-- [] i18n
-- [] Error Log
-- [] Theme
-- [] Public Directive
+- [ ] i18n
+- [ ] Error Log
+- [ ] Theme
+- [ ] Public Directive
 
 ## Project Setup
 
