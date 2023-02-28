@@ -1,0 +1,28 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "jsx": "preserve",
+  "moduleResolution": "node",
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "playwright.config.*",
+    "package.json",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "*.vue",
+    "types/**/*.d.ts",
+    "types/**/*.ts",
+    "build/**/*.ts",
+    "build/**/*.d.ts",
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node",
+      "vite/client"
+    ],
+  }
+}
